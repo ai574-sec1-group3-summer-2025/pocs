@@ -1,0 +1,9 @@
+jupyterlab==4.2.5
+transformers
+torch
+sentencepiece
+huggingface_hub
+jax
+jaxlib
+flax
+optax
