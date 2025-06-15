@@ -6,7 +6,9 @@ changed to run on CPU, albeit a bit slower.
 `pip install -r ./requirements.txt`
 
 # Login to Huggingface
-You'll need a Huggingface Account for this. Create a READ token to login.
+You'll need a Huggingface Account for anything using `transformers`. 
+Create a READ token to login: https://huggingface.co/docs/hub/en/security-tokens
+
 `huggingface-cli login`
 
 # Run jupyter
