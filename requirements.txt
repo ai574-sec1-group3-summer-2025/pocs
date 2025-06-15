@@ -1,5 +1,7 @@
 jupyterlab==4.2.5
-transformers
+accelerate==0.30
+transformers==4.41
+python-dotenv
 torch
 sentencepiece
 huggingface_hub
