@@ -11,3 +11,7 @@ flax
 optax
 accelerate==1.8.1
 bitsandbytes
+rouge-score==0.1.2
+bert-score==0.3.13
+evaluate==0.4.4
+git+https://github.com/google-research/bleurt.git
