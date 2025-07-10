@@ -1,6 +1,6 @@
 jupyterlab==4.2.5
 #accelerate==0.30
-transformers==4.52.1
+transformers[tf]==4.52.1
 python-dotenv
 torch
 sentencepiece
