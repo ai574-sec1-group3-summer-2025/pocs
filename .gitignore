@@ -7,3 +7,6 @@ __pycache__/
 
 /data/
 /speciality_classification/content/
+/speciality_classification/cache_dir/
+/speciality_classification/outputs/
+/speciality_classification/runs/
