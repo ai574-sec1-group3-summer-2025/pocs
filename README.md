@@ -13,3 +13,6 @@ Create a READ token to login: https://huggingface.co/docs/hub/en/security-tokens
 
 # Run jupyter
 `jupyter lab`
+
+# Dataset
+https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions/data
