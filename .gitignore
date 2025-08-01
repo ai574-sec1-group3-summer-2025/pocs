@@ -6,3 +6,6 @@ __pycache__/
 .virtual_documents
 
 results/
+outputs/ 
+cache_dir/
+runs/
