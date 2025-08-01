@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 import re
 
 
@@ -51,6 +52,15 @@ class DataUtils:
             plt.show()
 
         return counts
+    
+    def plot_confusion_matrix(self, confusion_matrix, classes, figsize=(8, 6)):
+        plt.figure(figsize=figsize)
+        sns.heatmap(confusion_matrix, annot=True, fmt="d", cmap="Blues", xticklabels=classes, yticklabels=classes)
+
+        plt.ylabel("True label")
+        plt.xlabel("Predicted label")
+        plt.title("Confusion Matrix")
+        plt.show()
 
     def console_log(self, message, verbose):
         if verbose is None:
