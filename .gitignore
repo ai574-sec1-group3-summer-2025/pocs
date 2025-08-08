@@ -5,6 +5,7 @@ __pycache__/
 .ipynb_checkpoints
 .virtual_documents
 
+models/
 results/
 outputs/ 
 cache_dir/
