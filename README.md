@@ -30,9 +30,22 @@ is run in its own Anaconda environment.
 * `classificiation.ipynb` - Main notebook for classification task
 * `data_utils.py` - Utility class for cleaning and analyzing data
 
+### Running
+```
+cd specialty_classifiction
+jupyter lab
+```
+
 ## NER
 
 * `ner_model.ipynb` - Main, completely self-contained, notebook for NER task.
+
+### Running
+```
+cd NER
+jupyter lab
+```
+
 
 ## Summarization
 
@@ -50,5 +63,10 @@ These models probably both require a CUDA video card in order to work. They coul
 You'll need a Huggingface Account for anything using `transformers`. 
 Create a READ token to login: https://huggingface.co/docs/hub/en/security-tokens
 
+### Running
+```
+cd summarization
+jupyter lab
+```
 
 
