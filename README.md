@@ -2,7 +2,7 @@
 # Group 3's project for AI574, summer 2025.
 
 Group Members:
-* Balachander Srinivasen
+* Balachander Srinivasan
 * Mahfuzur Rahman
 * Christopher Umbel
 
