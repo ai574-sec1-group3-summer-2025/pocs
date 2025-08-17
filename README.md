@@ -1,14 +1,20 @@
 
-This is group 3's project for AI574, summer 2025.
+# Group 3's project for AI574, summer 2025.
 
-It comprises 3 tasks, which are implemented in the following directories. 
+It comprises 3 tasks:
+* Medical specialty classification
+* Named-Entity Recognition of medical terms
+* Transcript summarization
 
 # Project Structure
+
 * `/specialty_classifiction` - Classification of transcriptions according medical specialty
 * `/summarization` - Summarization of medical transcriptions
 * `/NER` - Named-Entity Recognition to extract relevant medical terms
+* `/data` - Folder containing the main dataset as well as various processed outputs 
 
 # Dataset
+
 All tasks use the same dataset of 5000 medical transcriptions:
 
 https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions/data
@@ -21,6 +27,13 @@ is run in its own Anaconda environment.
 
 ## Classification
 
+* `classificiation.ipynb` - Main notebook for classification task
+* `data_utils.py` - Utility class for cleaning and analyzing data
+
+## NER
+
+* `ner_model.ipynb` - Main, completely self-contained, notebook for NER task.
+
 ## Summarization
 
 The following notebooks contain the project code
@@ -28,10 +41,6 @@ The following notebooks contain the project code
 * `summarization-evaluation.ipynb` - Loads the machine-generated transcriptions
 and performs various evaluation routines to determine the quality of each model's
 output.
-
-### Running
-`cd summarization`
-`jupyter lab`
 
 ### Requirements
 These models probably both require a CUDA video card in order to work. They could probably be changed to run on CPU, albeit significantly slower. 
