@@ -1,6 +1,11 @@
 
 # Group 3's project for AI574, summer 2025.
 
+Group Members:
+* Balachander Srinivasen
+* Mahfuzur Rahman
+* Christopher Umbel
+
 It comprises 3 tasks:
 * Medical specialty classification
 * Named-Entity Recognition of medical terms
